@@ -490,6 +490,11 @@ button:hover{
   font-size: .8rem !important;
  
  }
+ .text-area svg{
+  color: blue;
+  width: 35px;
+  height: 35px ;
+ }
    }
 
    /*phone for max width 400px*/
