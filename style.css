@@ -314,6 +314,12 @@ button:hover{
        backdrop-filter: blur(20px);
        box-shadow: 0 0px 30px rgba(75, 83, 99, 0.1);
        padding: 0;
+       top: 0;
+       position: fixed;
+       z-index: 1000;
+       left: 0;
+       width: 100%;
+       margin: 0;
      }
     nav .menu{
       display: flex;
@@ -331,6 +337,10 @@ button:hover{
       overflow-x: hidden;
       overscroll-behavior: contain;
       -webkit-overflow-scrolling: touch;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
     
     }
     nav .menu .link-list{
